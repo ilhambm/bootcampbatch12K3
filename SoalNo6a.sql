@@ -50,4 +50,4 @@ work.name as work,
 categori.salary as salary 
 FROM name 
 JOIN work ON name.id_work = work.id 
-JOIN categori ON name.id_salary = categori.id
+JOIN category ON name.id_salary = category.id
